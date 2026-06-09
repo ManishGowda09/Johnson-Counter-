@@ -13,7 +13,7 @@ A Johnson counter is variation of a standard ring shift register where the inver
 
 ### Counting Sequence
 When clock pulses are applied, the counter cycles through the following **8 states**:
-$$\text{0000} \rightarrow \text{1000} \rightarrow \text{1100} \rightarrow \text{1110} \rightarrow \text{1111} \rightarrow \text{0111} \rightarrow \text{0011} \rightarrow \text{0001} \rightarrow \text{0000}$$
+$$\text{1000} \rightarrow \text{0100} \rightarrow \text{0010} \rightarrow \text{0001} \rightarrow \text{1000} \rightarrow \text{0100} \rightarrow \text{0010} \rightarrow \text{0001} \rightarrow \text{1000}$$
 
 ---
 # Waveform
