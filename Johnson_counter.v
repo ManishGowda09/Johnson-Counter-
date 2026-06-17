@@ -33,7 +33,7 @@ module Johnson_counter(
         temp = 4'b1000;
        end
        else begin
-        temp = {temp[0],temp[3:1]};
+        temp = {~temp[0],temp[3:1]};
        end
        assign count = temp;
     end
